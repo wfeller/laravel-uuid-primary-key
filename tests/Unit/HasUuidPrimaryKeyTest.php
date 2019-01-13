@@ -16,7 +16,7 @@ class HasUuidPrimaryKeyTest extends TestCase
     }
 
     /** @test */
-    public function sets_the_models_key_if_it_isnt_a_uuid()
+    public function overrides_the_models_key_if_it_isnt_a_uuid()
     {
         $user = new User;
         $user->{$user->getKeyName()} = 1;
