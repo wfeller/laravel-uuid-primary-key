@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Wfeller\\UuidPrimaryKey\\": "src"
+            "WF\\UuidPrimaryKey\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wfeller\\UuidPrimaryKey\\Tests\\": "tests"
+            "WF\\UuidPrimaryKey\\Tests\\": "tests"
         }
     },
     "scripts": {

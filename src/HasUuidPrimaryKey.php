@@ -1,6 +1,6 @@
 <?php
 
-namespace Wfeller\UuidPrimaryKey;
+namespace WF\UuidPrimaryKey;
 
 use Illuminate\Support\Str;
 use Ramsey\Uuid\Uuid;
