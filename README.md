@@ -20,7 +20,7 @@ Add the following trait to your eloquent models:
 ``` php
 class Car extends \Illuminate\Database\Eloquent\Model
 {
-    use \Wfeller\UuidPrimaryKey\HasUuidPrimaryKey;
+    use \WF\UuidPrimaryKey\HasUuidPrimaryKey;
     
     // ...
 }
