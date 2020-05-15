@@ -11,8 +11,10 @@ class TestCase extends BaseTestCase
     public function setUp() : void
     {
         parent::setUp();
+
         $this->runMigrations();
     }
+
     protected function getEnvironmentSetUp($app)
     {
         // Setup default database to use sqlite :memory:
@@ -23,6 +25,7 @@ class TestCase extends BaseTestCase
             'prefix'   => '',
         ]);
     }
+
     public function runMigrations()
     {
         Schema::create('users', function (Blueprint $table) {

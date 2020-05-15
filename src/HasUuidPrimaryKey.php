@@ -28,6 +28,7 @@ trait HasUuidPrimaryKey
     public function setUuidKey($force = false)
     {
         $key = $this->getKey();
+
         if ($force || ! is_string($key) || ! Uuid::isValid($key)) {
             $this->{$this->getKeyName()} = Str::orderedUuid()->toString();
         }
