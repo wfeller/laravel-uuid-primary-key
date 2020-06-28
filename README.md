@@ -5,6 +5,13 @@
 
 A trait to use ordered uuids as primary keys on your eloquent models.
 
+## Licence
+This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/wfeller/laravel-uuid-primary-key) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
+
+You can buy trees here [offset.earth/treeware](https://plant.treeware.earth/{vendor}/{package})
+
+Read more about Treeware at [treeware.earth](http://treeware.earth)
+
 ## Installation
 
 You can install the package via composer:
@@ -48,7 +55,3 @@ If you discover any security related issues, please email me instead of using th
 
 - [William](https://github.com/wfeller)
 - [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
