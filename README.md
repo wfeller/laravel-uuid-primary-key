@@ -2,6 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/wfeller/laravel-uuid-primary-key.svg?style=flat-square)](https://packagist.org/packages/wfeller/laravel-uuid-primary-key)
 [![Total Downloads](https://img.shields.io/packagist/dt/wfeller/laravel-uuid-primary-key.svg?style=flat-square)](https://packagist.org/packages/wfeller/laravel-uuid-primary-key)
+[![Plant Tree](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Plant%20Tree&query=%24.total&url=https%3A%2F%2Fpublic.offset.earth%2Fusers%2Ftreeware%2Ftrees)](https://plant.treeware.earth/wfeller/laravel-uuid-primary-key)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://plant.treeware.earth/wfeller/laravel-uuid-primary-key)
 
 A trait to use ordered uuids as primary keys on your eloquent models.
 
